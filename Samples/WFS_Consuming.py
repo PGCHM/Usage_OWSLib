@@ -1,3 +1,14 @@
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+
+"""
+Created on Wed Aug 17 22:12:07 2018
+
+http://geopython.github.io/OWSLib
+
+@author: JaniePG
+
+"""
 from owslib.wfs import WebFeatureService
 
 # Connect to a WFS and inspect its capabilities.

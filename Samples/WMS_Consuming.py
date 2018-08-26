@@ -1,4 +1,15 @@
-#Find out what a WMS has to offer. Service metadata:
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+
+"""
+Created on Wed Aug 17 22:12:07 2018
+
+http://geopython.github.io/OWSLib
+
+@author: JaniePG
+
+"""
+# Find out what a WMS has to offer. Service metadata:
 from owslib.wms import WebMapService
 wms = WebMapService('http://wms.jpl.nasa.gov/wms.cgi', version='1.1.1')
 wms.identification.type
